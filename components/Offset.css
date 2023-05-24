@@ -1,0 +1,134 @@
+.Offset {
+    width: 100%;
+    overflow-y: auto;
+    background-color: #C1BBBB;
+}
+
+.Dewang {
+    background-color: #ebebeb;
+    width: 75%;
+    margin-left: 12.5%;
+    border-radius: 25px;
+
+    margin-bottom: 105px;
+}
+
+.Green {
+    text-align: center;
+    font-family: 'Acme';
+    font-size: 40px;
+}
+
+.Offset-info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Offset-Name {
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 25px;
+    font-size: 17px;
+    color: black;
+    background-color: white;
+}
+
+
+
+.Offset-Name::placeholder {
+    color: gray;
+    opacity: 0.6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Offset-Name1 {
+    width: 600px;
+    color: black;
+    height: 200px;
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Product-Cost {
+    display: flex;
+    justify-content: center;
+}
+
+.Offset-Name1::placeholder {
+    color: gray;
+    opacity: 0.6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Cost {
+    width: 50px;
+    height: 20px;
+    border: solid 1px black;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.Cost::placeholder {
+    color: gray;
+}
+
+.Price {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+.Price1 {
+    margin-top: 26px;
+    font-size: 22px;
+}
+
+.Price2 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.Offset-info1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Offset-info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Submit-btn1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.Submit-btn1:hover {
+    opacity: 75%;
+}
+
+.Submit1 {
+    background-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    border: solid black;
+    border-radius: 10px;
+    color: white;
+}

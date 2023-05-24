@@ -1,0 +1,215 @@
+.Register {
+    width: 100%;
+    color: black;
+    overflow-y: auto;
+    background-color: #C1BBBB;
+}
+
+.Register-transparent {
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    margin-bottom: 105px;
+}
+
+.Register-transparent.active
+{
+    display: none;
+}
+
+
+.Register-Inner {
+    text-align: center;
+    color: black;
+    font-family: PT Serif;
+    font-size: 40px;
+}
+
+.Register-Company-Title
+{
+    width: 100%;
+    height: 10%;
+    color: black;
+    border-bottom: solid 2px black;
+}
+
+.Basic {
+    color: black;
+    text-align: center;
+}
+
+.Basic-Details {
+    display: flex;
+    flex-direction: column;
+    text-align: inherit;
+}
+
+.Register-Company-Name
+{
+    margin-left: 15%;
+}
+
+.Company-Name-Title
+{
+    font-size: 25px;
+}
+
+.Company-Name {
+    color: gray;
+    border: solid 2px black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 800px;
+    height: 35px;
+    background-color: white;
+
+}
+
+.CIN {
+    color: gray;
+    border: solid 2px black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 800px;
+    background-color: white;
+    height: 35px;
+}
+
+.CIN::placeholder {
+    color: gray;
+    opacity: 0.5;
+}
+
+.Company-Info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Company-Name::placeholder {
+    color: gray;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.Company-Info1 {
+    margin-top: 40px;
+    margin-left: 420px;
+    background: transparent;
+
+}
+
+.CIN-No {
+    margin-left: 90px;
+}
+
+.Certificate-Image {
+    margin-top: 20px;
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    border: solid 1px black;
+    background: transparent;
+}
+
+.Image-add {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.Upload-btn {
+    background-color: transparent;
+    border: solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.Description {
+    width: 900px;
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 200px;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: transparent;
+    color: black;
+    background: white;
+}
+
+.Company-Info2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Description::placeholder {
+    color: gray;
+    opacity: 0.5;
+}
+
+.Description::placeholder {
+    width: 900px;
+    height: 200px;
+    font-size: 25px;
+    font-family: 'monospace';
+}
+
+.Submit-btn {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Submit {
+    background-color: #44924C;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    opacity: 75%;
+}
+
+.Submit:hover {
+    opacity: 100%;
+}
+
+.Owner-Name-Details
+{
+    border-top: solid 2px black;
+    margin-top: 2%;
+}
+
+.Owner {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Error {
+    color: red;
+}
+
+.Not-Error {
+    color: black;
+}
+
+.Star {
+    color: rgb(240, 33, 33);
+    font-size: 23px;
+}
+
+.Social-Media-Company
+{
+    border-top: solid 2px black;
+    margin-top: 2%;
+}
